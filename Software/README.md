@@ -5,10 +5,11 @@ This is a collection of tips we have learned along the way.
 
 ## How to safely run & edit blinky on the Delfino?
 Suppose you wanted to use the Blinkey example that TI provide in CCS.
-How can you copy this project, and modify it, without modifying the original?
-Make sure these steps are already done:
-- Correctly copied file  to workspace (see full details below)
-- Target Configuration file setup (see full details below)  
+How can you copy this project, and modify it, without modifying the original?  
+Make sure these first 2 steps are already done:
+1. Correctly copy file  to workspace (see full details below)
+2. Target Configuration file setup (see full details below)  
+
 Next, follow these steps:
 - Right click project name
 	- Build Project
@@ -30,7 +31,7 @@ There are 2 methods to correctly copy. We reccommend method 1, but we may need t
 	- Open the project you wish to copy in CCS
 	- Right click on project name, and then click copy.  
 	- Then, paste project into the workspace
-- *Warning*:  When setting up CCS for the very first time, this method may not work.
+- *WARNING*:  When setting up CCS for the very first time, this method may not work.
 	- Initially, Matt & Colm spent 4+ hours attempting this method when simply trying to get the basic blinky working, but couldn't get it to work.
 	- We had an issue where all of the C files in the copied project were "linked files" as apposed to "C Source" files.
 		- *NOTE:* Right click on main file in project and check properties to see if it's a linked file or not.
@@ -45,6 +46,8 @@ There are 2 methods to correctly copy. We reccommend method 1, but we may need t
 		- Copy the project you wish to duplicate.
 		- Paste this project in the desired windows explorer location.
 	- Open CCS:
+		- Best practise is to change name of original project in CCS.
+			- If the original project is open in CCS, and has the same name as the one we are about to import to our workspace, then we will get an error.
 		- In CCS: File-->Switch Workspace-->Other…
 			- Browse to whatever folder in Windows you want to use. Eg MIT-Pico-Grid/Software
 		- In CCS: File-->Import-->C/C++ --> CCS Projects. Click Next
