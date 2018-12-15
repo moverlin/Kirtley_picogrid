@@ -9,16 +9,33 @@ Most of what is talked about here relates to the TI Delfino (TMS320F28377D) micr
 
 ## Table of Contents
 Here is the list of topics we discuss:
-- [Example linko](#head1234)
+- [Software Organisation Overview](#folder_structure)
 - [Running blinky TI example on Deflino](#runblinky)
 - [Copy & Paste TI CCS project](#ccs_copy)
 - [Target Configuration Files](#targetconfig)
 - [How files in this repo are organised](#folder_structure)
 - Demos:
 	- Blinky Mutant v7
+- [Uniflash](#uniflash)
 
-## <a name="head1234"></a>The Example
-Here's an exmpale of a link.
+## <a name="folder_structure"></a> Overview of Software Organisation
+Features of our approach:
+- Self-Contained
+	- Our goal is to have self-contained folders that run specific demos/projects. All software associated with a given demo should be located in the same place. 
+	- This means we duplicate some files (eg TI libraries, Header files etc) for each new project. However, we prefer this approach than to require our projects to link to files in other folders outside that project folder.
+- Typical Demo/Project Layout:
+	- *NOTE!!!* This layout will probably be a little different in the future to cater for projects with multiple microcontrollers.
+	- Labview folder contains LabView .VI file for that specific project
+	- There are 2 folders originally obtained from TI examples, that remain untouched
+		- F2837xD_common
+		- F2837xD_headers
+	- Comm & Peripheral Folders
+		- These may be edited a little or a lot depending on the application
+	- main_xxx.c
+		- Usually unique to an application
+	- [Target Configuration File](#targetconfig)
+	- [Uniflash .OUT file](#uniflash)
+		- All of our projects can only be exclusively flashed using Uniflash, except for TI examples which are flashed with the CCS debug.
 
 ## <a name="runblinky"></a>How to safely run & edit blinky on the Delfino?
 Suppose you wanted to use the Blinkey example that TI provide in CCS.
@@ -112,8 +129,4 @@ Steps to use Uniflash:
 	- A Window will appear
 		- Ignore all of the options - no need to change anything
 		- Click Program-->Load Program-->Browse--> go to .OUT file located in CPU1_flash folder
-## <a name="folder_structure"></a> Folder Structure
-Describe file structure
-- Labview folder has labview files
-- There are 2 folders that remain untouched
-F2837xD common & headers
+
