@@ -4,7 +4,7 @@ One often has to follow a very specific set of sequential steps, that are not at
 This is a collection of tips we have learned along the way.
 
 Here is the list of topics we discuss:
-[How to safely run & edit blinky on the Delfino](##how-to-safely-run-&-edit-blinky-on-the-delfino?)
+
 
 ## How to safely run & edit blinky on the Delfino?
 Suppose you wanted to use the Blinkey example that TI provide in CCS.
@@ -83,3 +83,4 @@ The steps to create this file are as follows:
 	- Double click the name of the ".ccxml" file
 	- Click "Test Connection" Button
 	- A window will appear and will tell us whether we succeed
+	- [How to safely run & edit blinky on the Delfino](##how-to-safely-run-&-edit-blinky-on-the-delfino?)
