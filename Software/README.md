@@ -36,7 +36,7 @@ Features of our approach:
 		- Usually unique to an application
 	- [Target Configuration File](#targetconfig)
 	- [Uniflash .OUT file](#uniflash)
-		- All of our projects can only be exclusively flashed using Uniflash, except for TI examples which are flashed with the CCS debug.
+		- All of our projects can only be exclusively flashed using Uniflash, except for TI examples which are flashed with the CCS debug. For some reason, I think this is only visible when browsing via CCS Uniflash. It probably has a different name in windows explorer.
 
 ## <a name="runblinky"></a>How to safely run & edit blinky on the Delfino?
 Suppose you wanted to use the Blinkey example that TI provide in CCS.
