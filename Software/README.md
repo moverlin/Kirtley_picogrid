@@ -24,18 +24,42 @@ TI provide examples when you download CCS:
 - C: ti/ControlSuite/device_support/F2837xD/v210/F2837xD_examples_Cpu1
 - Or C: ti/ControlSuite/device_support/F2837xD/v210/F2837xD_examples_Dual
 
-There are 2 methods to correctly copy:
+There are 2 methods to correctly copy. We reccommend method 1, but we may need to resort to method 2 at times:
 1. Copy & Paste in CCS Environment
 - Steps:
 	- Open the project you wish to copy in CCS
 	- Right click on project name, and then click copy.  
 	- Then, paste project into the workspace
-- Initially, Matt & Colm spent 4+ hours attempting this method but couldn't get it to work, because all of the C files were "linked files"
-- However, the original files we are copying need to be a "C Source" file
-	- NOTE: right click on file and check properties to see if it's a linked file or not.
-- So, we initially followed method 2 described below to keep the properties of the main.c file etc as C source files, and then used method 1 (copy & paste in CCS) thereafter.
+- *Warning*:  When setting up CCS for the very first time, this method may not work.
+	- Initially, Matt & Colm spent 4+ hours attempting this method when simply trying to get the basic blinky working, but couldn't get it to work.
+	- We had an issue where all of the C files in the copied project were "linked files" as apposed to "C Source" files.
+		- *NOTE:* Right click on main file in project and check properties to see if it's a linked file or not.
+	- This meant that when we made changes to our copied project, the orignal project also changed.
+- To solve this issue we were forced to initially follow method 2 described below.
+	- This kept the properties of the main.c file etc as C source files
+	- For every subsequent copy of the latest project, we were able to use the simple method 1 (copy & paste in CCS).
 
 2. Copy & Paste In Windows Explorer
+- Steps:
+	- Open windows explorer:
+		- Copy the project you wish to duplicate.
+		- Paste this project in the desired windows explorer location.
+	- Open CCS:
+		- In CCS: File-->Switch Workspace-->Other…
+			- Browse to whatever folder in Windows you want to use. Eg MIT-Pico-Grid/Software
+		- In CCS: File-->Import-->C/C++ --> CCS Projects. Click Next
+			- A new window appears
+			- Click Browse in order to select search directory 
+			- Select folder where the project we wish to copy (eg TI example) is located
+				- Recall  For TI examples:
+					- C: ti/ControlSuite/device_support/F2837xD/v210/F2837xD_examples_Cpu1
+					- Or C: ti/ControlSuite/device_support/F2837xD/v210/F2837xD_examples_Dual
+			- Once you select either of above folders, a bunch of "discovered projects" will appear
+			 	- Select the discovered project folder you wish to use
+				- *NOTE:* Check boxes as follows (this may not matter that much...)
+					- [x] Automatically import referenced projects found in search directory
+					- [ ] Copy projects into workspace
+Finish
 
 ### How to create a Target Configuration file
 The target configuration file contains information on the DSP we're using, what programmer hardware we're using etc.
