@@ -4,8 +4,8 @@ One often has to follow a very specific set of sequential steps, that are not at
 Most of what is talked about here relates to the TI Delfino (TMS320F28377D) microcontroller. However, Labview also has its quirks and these will also be included here.
 
 ### Goals of this Document
-- To document the tips we have learned along the way in a single document.
 - To describe how the kirtley_picogrid software is organised and how to run it.
+- To document the tips we have learned along the way in a single document.
 
 ## Table of Contents
 Here is the list of topics we discuss:
