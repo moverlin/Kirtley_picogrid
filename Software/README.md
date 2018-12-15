@@ -97,7 +97,6 @@ There are 2 methods to correctly copy. We reccommend method 1, but we may need t
 				- *NOTE:* Check boxes as follows (this may not matter that much...)
 					- [x] Automatically import referenced projects found in search directory
 					- [ ] Copy projects into workspace
-Finish
 
 ###  <a name="targetconfig"></a> How to create a Target Configuration file
 The target configuration file contains information on the DSP we're using, what programmer hardware we're using etc. The compiler needs to know this information to create the binary file output.
@@ -118,7 +117,7 @@ The steps to create this file are as follows:
 	
 
 ## <a name="uniflash"></a> Uniflash
-To flash the code we use CCS Uniflash, as opposed to the debug mode in CCS.  
+To flash our code we use CCS Uniflash, as opposed to the debug mode in CCS.  
 *NOTE:* We don't actually know how to flash using CCS debug mode when trying to flash code derived from Pohsu's code!! Pohsu doesn't know how to do this either. Uniflash is faster anyway, so we have decided that this doesn't bother us for now.
 
 Steps to use Uniflash:
