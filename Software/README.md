@@ -15,7 +15,7 @@ Here is the list of topics we discuss:
 - [Copy & Paste TI CCS project](#ccs_copy)
 - [Target Configuration Files](#targetconfig)
 - Demos:
-	- Blinky Mutant v7
+	- blinky_mutant_v7
 		- This example blinks an LED on the Central Controller PCB via clicking a button on the Labview control panel.
 - [Uniflash](#uniflash)
 
