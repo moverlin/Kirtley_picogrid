@@ -17,3 +17,8 @@ Steps to use Uniflash:
 	- A Window will appear
 		- Ignore all of the options - no need to change anything
 		- Click Program-->Load Program-->Browse--> go to .OUT file located in CPU1_flash folder
+## Folder Structure
+Describe file structure
+- Labview folder has labview files
+- There are 2 folders that remain untouched
+F2837xD common & headers
