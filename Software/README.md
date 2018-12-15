@@ -6,7 +6,9 @@ This is a collection of tips we have learned along the way.
 ## Table of Contents
 Here is the list of topics we discuss:
 - [Example linko](#head1234)
-- [Running blinky TI example on Deflino?](#runblinky)
+- [Running blinky TI example on Deflino](#runblinky)
+- [Copy & Paste TI CCS project](#ccs_copy)
+- [Target Configuration Files](#targetconfig)
 
 ## <a name="head1234"></a>The Example
 Here's an exmpale of a link.
@@ -26,7 +28,7 @@ Next, follow these steps:
 		- Click green triangle  
 Enjoy LED blinkage!!
 
-### How to Copy TI CCS projects?
+### <a name="ccs_copy"></a> How to Copy TI CCS projects?
 This description is aimed at guiding those who want to copy and edit the TI example code. However, the steps used are the same for copying TI projects in general.
 
 TI provide examples when you download CCS:
@@ -72,7 +74,7 @@ There are 2 methods to correctly copy. We reccommend method 1, but we may need t
 					- [ ] Copy projects into workspace
 Finish
 
-### How to create a Target Configuration file
+###  <a name="targetconfig"></a> How to create a Target Configuration file
 The target configuration file contains information on the DSP we're using, what programmer hardware we're using etc.
 The steps to create this file are as follows:
 - Open the project in CCS
