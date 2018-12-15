@@ -1,6 +1,8 @@
 # Software Guide & Tips
 Programming with TI's code composer studio (CCS) is certainly not intuitive.
-One often has to follow a very specific set of sequential steps, that are not at all obvious.
+One often has to follow a very specific set of sequential steps, that are not at all obvious.  
+Labview also has its quirks.
+
 ### Goals of this Document
 - To document the tips we have learned along the way in a single document.
 - To describe how the kirtley_picogrid software is organised and how to run it.
