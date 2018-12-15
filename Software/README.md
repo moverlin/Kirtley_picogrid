@@ -42,9 +42,8 @@ Features of our approach:
 Suppose you wanted to use the Blinkey example that TI provide in CCS.
 How can you copy this project, and modify it, without modifying the original?  
 Make sure these first 2 steps are already done:
-1. Correctly copy file  to workspace (see full details below)
-2. Target Configuration file setup (see full details below)  
-
+1. Correctly [copy file  to workspace](#ccs_copy)
+2. Setup [Target Configuration file](#targetconfig)
 Next, follow these steps:
 - Right click project name
 	- Build Project
