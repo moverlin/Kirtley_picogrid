@@ -5,7 +5,7 @@ This is a collection of tips we have learned along the way.
 
 Here is the list of topics we discuss:
 
-## The Example
+## <a name="head1234"></a>The Example
 Here's an exmpale of a link.
 
 ## How to safely run & edit blinky on the Delfino?
@@ -85,4 +85,4 @@ The steps to create this file are as follows:
 	- Double click the name of the ".ccxml" file
 	- Click "Test Connection" Button
 	- A window will appear and will tell us whether we succeed
-	- [Example linko](##the-example)
+	- [Example linko](#head1234)
