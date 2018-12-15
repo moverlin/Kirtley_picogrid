@@ -1,7 +1,9 @@
-# Software Tips
+# Software Guide & Tips
 Programming with TI's code composer studio (CCS) is certainly not intuitive.
 One often has to follow a very specific set of sequential steps, that are not at all obvious.
-This is a collection of tips we have learned along the way.
+### Goals of this Document
+- To document the tips we have learned along the way in a single document.
+- To describe how the kirtley_picogrid software is organised and how to run it.
 
 ## Table of Contents
 Here is the list of topics we discuss:
@@ -9,6 +11,9 @@ Here is the list of topics we discuss:
 - [Running blinky TI example on Deflino](#runblinky)
 - [Copy & Paste TI CCS project](#ccs_copy)
 - [Target Configuration Files](#targetconfig)
+- [How files in this repo are organised](#folder_structure)
+- Demos:
+	- Blinky Mutant v7
 
 ## <a name="head1234"></a>The Example
 Here's an exmpale of a link.
@@ -90,3 +95,23 @@ The steps to create this file are as follows:
 	- Double click the name of the ".ccxml" file
 	- Click "Test Connection" Button
 	- A window will appear and will tell us whether we succeed
+	
+
+## <a name="uniflash"></a> Uniflash
+To flash the code we use CCS Uniflash, as opposed to the debug mode in CCS.  
+*NOTE:* We don't actually know how to flash using CCS debug mode when trying to flash code derived from Pohsu's code!! Pohsu doesn't know how to do this either. Uniflash is faster anyway, so we have decided that this doesn't bother us for now.
+
+Steps to use Uniflash:
+1. Build Code in CCS.
+	- This generates a .OUT file located in CPU1_flash folder.
+2. Open Uniflash
+	- Open Target Configuration-->Browse-->find location of .ccxml file
+		- targetConfigs folder, file ending in 79D.ccxml
+	- A Window will appear
+		- Ignore all of the options - no need to change anything
+		- Click Program-->Load Program-->Browse--> go to .OUT file located in CPU1_flash folder
+## <a name="folder_structure"></a> Folder Structure
+Describe file structure
+- Labview folder has labview files
+- There are 2 folders that remain untouched
+F2837xD common & headers
