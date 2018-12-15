@@ -4,8 +4,9 @@ One often has to follow a very specific set of sequential steps, that are not at
 Most of what is talked about here relates to the TI Delfino (TMS320F28377D) microcontroller. However, Labview also has its quirks and these will also be included here.
 
 ### Goals of this Document
-- To describe how the kirtley_picogrid software is organised and how to run it.
-- To document the tips we have learned along the way in a single document.
+- Describe how the kirtley_picogrid software is organised and how to run it.
+- Describe the tips we have learned along the way.
+- Put all of this information into a single document.
 
 ## Table of Contents
 Here is the list of topics we discuss:
@@ -13,9 +14,9 @@ Here is the list of topics we discuss:
 - [Running blinky TI example on Deflino](#runblinky)
 - [Copy & Paste TI CCS project](#ccs_copy)
 - [Target Configuration Files](#targetconfig)
-- [How files in this repo are organised](#folder_structure)
 - Demos:
 	- Blinky Mutant v7
+		- This example blinks an LED on the Central Controller PCB via clicking a button on the Labview control panel.
 - [Uniflash](#uniflash)
 
 ## <a name="folder_structure"></a> Overview of Software Organisation
@@ -99,7 +100,7 @@ There are 2 methods to correctly copy. We reccommend method 1, but we may need t
 Finish
 
 ###  <a name="targetconfig"></a> How to create a Target Configuration file
-The target configuration file contains information on the DSP we're using, what programmer hardware we're using etc.
+The target configuration file contains information on the DSP we're using, what programmer hardware we're using etc. The compiler needs to know this information to create the binary file output.
 The steps to create this file are as follows:
 - Open the project in CCS
 - Right click project name
