@@ -4,8 +4,10 @@
 - Originally, Matt Overlin & Colm were trying to modify the TI blinky example, to achieve our goal above.
 - It proved to be easier, to simply modify Pohsu's code - the generation of blinky code created this way are now labelled "mutant".
 
-## How to Flash the code?
-To flash the code we use CCS Uniflash, as opposed to the debug mode in CCS.
+## How to Flash this code?
+To flash the code we use CCS Uniflash, as opposed to the debug mode in CCS.  
+*NOTE:* We don't actually know how to flash using CCS debug mode when trying to flash code derived from Pohsu's code!! Pohsu doesn't know how to do this either. Uniflash is faster anyway, so we have decided that this doesn't bother us for now.
+
 Steps to use Uniflash:
 1. Build Code in CCS.
 	- This generates a .OUT file located in CPU1_flash folder.
