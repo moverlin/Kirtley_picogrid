@@ -17,7 +17,7 @@ The system under construction:
 - LabVIEW 14.0
 
 ## Team 
-- Colm O'Rourke
+- Colm O'Rourke (EDITED!!)
 - Matt Overlin
 
 ## Publications
