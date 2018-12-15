@@ -3,6 +3,9 @@ Programming with TI's code composer studio (CCS) is certainly not intuitive.
 One often has to follow a very specific set of sequential steps, that are not at all obvious.
 This is a collection of tips we have learned along the way.
 
+Here is the list of topics we discuss:
+[How to safely run & edit blinky on the Delfino](##how-to-safely-run-&-edit-blinky-on-the-delfino?)
+
 ## How to safely run & edit blinky on the Delfino?
 Suppose you wanted to use the Blinkey example that TI provide in CCS.
 How can you copy this project, and modify it, without modifying the original?  
