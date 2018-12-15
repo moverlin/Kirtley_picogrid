@@ -8,15 +8,13 @@ Suppose you wanted to use the Blinkey example that TI provide in CCS.
 How can you copy this project, and modify it, without modifying the original?
 Make sure these steps are already done:
 - Correctly copied file  to workspace (see full details below)
-- Target Configuration file setup (see full details below)
-
+- Target Configuration file setup (see full details below)  
 Next, follow these steps:
 - Right click project name
 	- Build Project
 - Right click on project name
 	- Debug As--> Code Composer Debug Session
-		- Click green triangle
-
+		- Click green triangle  
 Enjoy LED blinkage!!
 
 ### How to Copy TI CCS projects?
@@ -26,7 +24,7 @@ TI provide examples when you download CCS:
 - C: ti/ControlSuite/device_support/F2837xD/v210/F2837xD_examples_Cpu1
 - Or C: ti/ControlSuite/device_support/F2837xD/v210/F2837xD_examples_Dual
 
-There are 2 methods:
+There are 2 methods to correctly copy:
 1. Copy & Paste in CCS Environment
 - Steps:
 	- Open the project you wish to copy in CCS
