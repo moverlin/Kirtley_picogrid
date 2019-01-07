@@ -2,3 +2,5 @@
 1544630572837	Delete resource 'blinky_cpu01'
 1544632750942	Delete resource 'blinky_cpu01/NewTargetConfiguration.ccxml'
 1544823415638	Delete resource 'blinky_mutant_v7/CPU1_FLASH/blinky_mutant_v6.out'
+1544910274148	Delete resource 'blinky_mutant_InverterViaLabview_for_central_controller_v8'
+1544910411013	Delete resource 'blinky_mutant_v8'

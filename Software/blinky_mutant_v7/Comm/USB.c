@@ -67,8 +67,8 @@ void USB_TO_RS485Interpreter(void)
         if (usb_rx[0] == 184) lq[1] = usb_rx[3];
         if (usb_rx[0] == 185) lp[2] = usb_rx[3];
         if (usb_rx[0] == 186) lq[2] = usb_rx[3];
-        if (usb_rx[0] == 107) GpioDataRegs.GPCSET.bit.GPIO79 = 1;
-        if (usb_rx[0] == 108) GpioDataRegs.GPCCLEAR.bit.GPIO79 = 1;
+        if (usb_rx[0] == 107) GpioDataRegs.GPCSET.bit.GPIO79 = 1; // LED 4 ... LEDs: 73,75,77,79,81,83
+        if (usb_rx[0] == 108) GpioDataRegs.GPCCLEAR.bit.GPIO79 = 1; // LED4
 
     }
     else{
