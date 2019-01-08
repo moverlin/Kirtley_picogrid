@@ -1,0 +1,8 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+USER_OBJS :=
+
+LIBS := -l"C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter\ Controller/CPU2/F2837xD_common/cmd/2837xD_FLASH_lnk_cpu2.cmd" -l"C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter\ Controller/CPU2/F2837xD_headers/cmd/F2837xD_Headers_nonBIOS_cpu2.cmd" -lrts2800_fpu32.lib -llibc.a
+

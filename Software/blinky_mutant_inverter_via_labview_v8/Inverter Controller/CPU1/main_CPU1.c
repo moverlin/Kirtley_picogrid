@@ -67,6 +67,7 @@ void main(void)
 
 	IPCBootCPU2(C1C2_BROM_BOOTMODE_BOOT_FROM_FLASH); // Send boot command to allow the CPU2 application to begin execution
 
+
 	for(;;); //Idle Loop
 }
 

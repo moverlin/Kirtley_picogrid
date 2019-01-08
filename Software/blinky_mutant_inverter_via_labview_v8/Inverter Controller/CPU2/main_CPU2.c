@@ -66,7 +66,7 @@ void main(void)
 
     Enable_Comm();
 
-    GpioDataRegs.GPCSET.bit.GPIO83 = 1;
+
     for(;;); //Idle Loop
 }
 
@@ -87,13 +87,7 @@ __interrupt void SCIB_RX_isr(void)
         if (!RX_cast)
             RS485_TX();
         RX_complete = 0; //reset RX_complete
-        if (RS485_rx[0] == 407) {
-        	GpioDataRegs.GPCTOGGLE.bit.GPIO79 = 1;
-        }
-        else if (RS485_rx[0] == 408) {
-        	GpioDataRegs.GPCTOGGLE.bit.GPIO79 = 1;
-        }
-        else if (RS485_rx[0] != CMD_NTH)
+        if (RS485_rx[0] != CMD_NTH)
         {
             GpioDataRegs.GPCTOGGLE.bit.GPIO81 = 1;
         }
@@ -132,7 +126,7 @@ void task_table (Uint32 * counter)
 
     if (*counter % (Uint32)task_period.count_10Hz == 0)
     {
-        GpioDataRegs.GPCTOGGLE.bit.GPIO81 = 1;
+        GpioDataRegs.GPCTOGGLE.bit.GPIO79 = 1;
         ScibRegs.SCICTL1.bit.SWRESET = 1; //un-reset and once it's asserted it has no function
 
     }

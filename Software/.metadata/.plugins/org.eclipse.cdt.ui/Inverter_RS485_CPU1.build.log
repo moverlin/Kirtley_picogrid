@@ -1,0 +1,141 @@
+
+**** Build of configuration CPU1_FLASH for project Inverter_RS485_CPU1 ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_Adc.c'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="F2837xD_Adc.d"  "C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_Adc.c"
+'Finished building: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_Adc.c'
+' '
+'Building file: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_CodeStartBranch.asm'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="F2837xD_CodeStartBranch.d"  "C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_CodeStartBranch.asm"
+'Finished building: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_CodeStartBranch.asm'
+' '
+'Building file: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_CpuTimers.c'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="F2837xD_CpuTimers.d"  "C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_CpuTimers.c"
+'Finished building: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_CpuTimers.c'
+' '
+'Building file: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_DefaultISR.c'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="F2837xD_DefaultISR.d"  "C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_DefaultISR.c"
+'Finished building: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_DefaultISR.c'
+' '
+'Building file: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_EPwm.c'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="F2837xD_EPwm.d"  "C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_EPwm.c"
+'Finished building: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_EPwm.c'
+' '
+'Building file: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_headers/source/F2837xD_GlobalVariableDefs.c'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="F2837xD_GlobalVariableDefs.d"  "C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_headers/source/F2837xD_GlobalVariableDefs.c"
+'Finished building: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_headers/source/F2837xD_GlobalVariableDefs.c'
+' '
+'Building file: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_Gpio.c'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="F2837xD_Gpio.d"  "C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_Gpio.c"
+'Finished building: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_Gpio.c'
+' '
+'Building file: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_Ipc.c'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="F2837xD_Ipc.d"  "C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_Ipc.c"
+'Finished building: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_Ipc.c'
+' '
+'Building file: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU2/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="F2837xD_Ipc_Driver_Util.d"  "C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU2/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c"
+'Finished building: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU2/F2837xD_common/source/F2837xD_Ipc_Driver_Util.c'
+' '
+'Building file: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_PieCtrl.c'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="F2837xD_PieCtrl.d"  "C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_PieCtrl.c"
+'Finished building: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_PieCtrl.c'
+' '
+'Building file: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_PieVect.c'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="F2837xD_PieVect.d"  "C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_PieVect.c"
+'Finished building: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_PieVect.c'
+' '
+'Building file: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_SysCtrl.c'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="F2837xD_SysCtrl.d"  "C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_SysCtrl.c"
+'Finished building: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_SysCtrl.c'
+' '
+'Building file: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_usDelay.asm'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="F2837xD_usDelay.d"  "C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_usDelay.asm"
+'Finished building: C:/git/MIT-Pico-Grid/Project/New_MG/Firmware/Two_Inverter/CPU1/F2837xD_common/source/F2837xD_usDelay.asm'
+' '
+'Building file: ../main_CPU1.c'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="main_CPU1.d"  "../main_CPU1.c"
+"../main_CPU1.c", line 88 (col. 31): advice #2614-D: (Performance) Use --fp_mode=relaxed to enable TMU hardware support for FP division.
+'Finished building: ../main_CPU1.c'
+' '
+'Building file: ../Comm/Comm.c'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="Comm/Comm.d" --obj_directory="Comm"  "../Comm/Comm.c"
+'Finished building: ../Comm/Comm.c'
+' '
+'Building file: ../Comm/IPC.c'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="Comm/IPC.d" --obj_directory="Comm"  "../Comm/IPC.c"
+'Finished building: ../Comm/IPC.c'
+' '
+'Building file: ../Control/Control.c'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="Control/Control.d" --obj_directory="Control"  "../Control/Control.c"
+"../Control/Control.c", line 57 (col. 30): advice #2614-D: (Performance) Use --fp_mode=relaxed to enable TMU hardware support for FP division.
+'Finished building: ../Control/Control.c'
+' '
+'Building file: ../Control/Meas.c'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="Control/Meas.d" --obj_directory="Control"  "../Control/Meas.c"
+"../Control/Meas.c", line 105 (col. 56): advice #2614-D: (Performance) Use --fp_mode=relaxed to enable TMU hardware support for FP division.
+'Finished building: ../Control/Meas.c'
+' '
+'Building file: ../Peripheral/Adc.c'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="Peripheral/Adc.d" --obj_directory="Peripheral"  "../Peripheral/Adc.c"
+'Finished building: ../Peripheral/Adc.c'
+' '
+'Building file: ../Peripheral/DAC.c'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="Peripheral/DAC.d" --obj_directory="Peripheral"  "../Peripheral/DAC.c"
+"../Peripheral/DAC.c", line 37 (col. 46): advice #2614-D: (Performance) Use --fp_mode=relaxed to enable TMU hardware support for FP division.
+'Finished building: ../Peripheral/DAC.c'
+' '
+'Building file: ../Peripheral/Epwm.c'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="Peripheral/Epwm.d" --obj_directory="Peripheral"  "../Peripheral/Epwm.c"
+'Finished building: ../Peripheral/Epwm.c'
+' '
+'Building file: ../Peripheral/GPIO.c'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="Peripheral/GPIO.d" --obj_directory="Peripheral"  "../Peripheral/GPIO.c"
+'Finished building: ../Peripheral/GPIO.c'
+' '
+'Building file: ../Peripheral/ISR.c'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="Peripheral/ISR.d" --obj_directory="Peripheral"  "../Peripheral/ISR.c"
+'Finished building: ../Peripheral/ISR.c'
+' '
+'Building file: ../Peripheral/Peripheral.c'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="Peripheral/Peripheral.d" --obj_directory="Peripheral"  "../Peripheral/Peripheral.c"
+'Finished building: ../Peripheral/Peripheral.c'
+' '
+'Building file: ../Peripheral/Timer.c'
+'Invoking: C2000 Compiler'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/include" --include_path="C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/include" --include_path="C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/include" -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 --preproc_with_compile --preproc_dependency="Peripheral/Timer.d" --obj_directory="Peripheral"  "../Peripheral/Timer.c"
+'Finished building: ../Peripheral/Timer.c'
+' '
+'Building target: Inverter_RS485_CPU1.out'
+'Invoking: C2000 Linker'
+"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --tmu_support=tmu0 --vcu_support=vcu2 --float_support=fpu32 -O3 --opt_for_speed=3 -g --define=CPU1 --define=_FLASH --display_error_number --diag_suppress=1311 --diag_warning=225 -z -m"Inverter_RS485_CPU1.map" --stack_size=0x100 --warn_sections -i"C:/ti/ccsv6/tools/compiler/c2000_15.12.3.LTS/lib" -i"C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/cmd" -i"C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_headers/cmd" --reread_libs --display_error_number --xml_link_info="Inverter_RS485_CPU1_linkInfo.xml" --rom_model -o "Inverter_RS485_CPU1.out" "./F2837xD_Adc.obj" "./F2837xD_CodeStartBranch.obj" "./F2837xD_CpuTimers.obj" "./F2837xD_DefaultISR.obj" "./F2837xD_EPwm.obj" "./F2837xD_GlobalVariableDefs.obj" "./F2837xD_Gpio.obj" "./F2837xD_Ipc.obj" "./F2837xD_Ipc_Driver_Util.obj" "./F2837xD_PieCtrl.obj" "./F2837xD_PieVect.obj" "./F2837xD_SysCtrl.obj" "./F2837xD_usDelay.obj" "./main_CPU1.obj" "./Comm/Comm.obj" "./Comm/IPC.obj" "./Control/Control.obj" "./Control/Meas.obj" "./Peripheral/Adc.obj" "./Peripheral/DAC.obj" "./Peripheral/Epwm.obj" "./Peripheral/GPIO.obj" "./Peripheral/ISR.obj" "./Peripheral/Peripheral.obj" "./Peripheral/Timer.obj"  -lrts2800_fpu32.lib -l"C:/Users/HILING/Kirtley_picogrid/Software/blinky_mutant_inverter_via_labview_v8/Inverter Controller/CPU1/F2837xD_common/cmd/2837xD_FLASH_lnk_cpu1.cmd" -lF2837xD_Headers_nonBIOS_cpu1.cmd -llibc.a 
+<Linking>
+'Finished building target: Inverter_RS485_CPU1.out'
+' '
+
+**** Build Finished ****
