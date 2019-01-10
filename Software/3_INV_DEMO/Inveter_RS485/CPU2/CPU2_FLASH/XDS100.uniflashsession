@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><PartNumber id=""><Core name="C28xx_CPU1"><DebugProperties>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;PropertyValues&gt;
+
+  &lt;property id="VerifyAfterProgramLoad"&gt;
+    &lt;curValue&gt;Full verification&lt;/curValue&gt;
+  &lt;/property&gt;
+
+  &lt;property id="AutoRunToLabelOnRestart"&gt;
+    &lt;curValue&gt;0&lt;/curValue&gt;
+  &lt;/property&gt;
+
+  &lt;property id="Z1LINKPOINTER1"&gt;
+    &lt;curValue&gt;FFFFFFFF&lt;/curValue&gt;
+  &lt;/property&gt;
+
+  &lt;property id="Z1LINKPOINTER2"&gt;
+    &lt;curValue&gt;FFFFFFFF&lt;/curValue&gt;
+  &lt;/property&gt;
+
+  &lt;property id="Z1LINKPOINTER3"&gt;
+    &lt;curValue&gt;FFFFFFFF&lt;/curValue&gt;
+  &lt;/property&gt;
+
+  &lt;property id="Z1PSWDLOCK"&gt;
+    &lt;curValue&gt;FFFFFFFF&lt;/curValue&gt;
+  &lt;/property&gt;
+
+  &lt;property id="Z1CRCLOCK"&gt;
+    &lt;curValue&gt;FFFFFFFF&lt;/curValue&gt;
+  &lt;/property&gt;
+
+  &lt;property id="Z1OTPBOOTCTRL"&gt;
+    &lt;curValue&gt;FFFFFFFF&lt;/curValue&gt;
+  &lt;/property&gt;
+
+  &lt;property id="Z1GRABSECT"&gt;
+    &lt;curValue&gt;3FFFFFFF&lt;/curValue&gt;
+  &lt;/property&gt;
+
+  &lt;property id="Z1GRABRAM"&gt;
+    &lt;curValue&gt;F000FFFF&lt;/curValue&gt;
+  &lt;/property&gt;
+
+  &lt;property id="Z1EXEONLYSECT"&gt;
+    &lt;curValue&gt;FFFF7FFF&lt;/curValue&gt;
+  &lt;/property&gt;
+
+  &lt;property id="Z1EXEONLYRAM"&gt;
+    &lt;curValue&gt;FFFFFFFF&lt;/curValue&gt;
+  &lt;/property&gt;
+
+  &lt;property id="Z2LINKPOINTER1"&gt;
+    &lt;curValue&gt;FFFFFFFF&lt;/curValue&gt;
+  &lt;/property&gt;
+
+  &lt;property id="Z2LINKPOINTER2"&gt;
+    &lt;curValue&gt;FFFFFFFF&lt;/curValue&gt;
+  &lt;/property&gt;
+
+  &lt;property id="Z2LINKPOINTER3"&gt;
+    &lt;curValue&gt;FFFFFFFF&lt;/curValue&gt;
+  &lt;/property&gt;
+
+  &lt;property id="Z2PSWDLOCK"&gt;
+    &lt;curValue&gt;FFFFFFFF&lt;/curValue&gt;
+  &lt;/property&gt;
+
+  &lt;property id="Z2CRCLOCK"&gt;
+    &lt;curValue&gt;FFFFFFFF&lt;/curValue&gt;
+  &lt;/property&gt;
+
+  &lt;property id="Z2OTPBOOTCTRL"&gt;
+    &lt;curValue&gt;FFFFFFFF&lt;/curValue&gt;
+  &lt;/property&gt;
+
+  &lt;property id="Z2GRABSECT"&gt;
+    &lt;curValue&gt;3FFFFFFF&lt;/curValue&gt;
+  &lt;/property&gt;
+
+  &lt;property id="Z2GRABRAM"&gt;
+    &lt;curValue&gt;F000FFFF&lt;/curValue&gt;
+  &lt;/property&gt;
+
+  &lt;property id="Z2EXEONLYSECT"&gt;
+    &lt;curValue&gt;FFFF7FFF&lt;/curValue&gt;
+  &lt;/property&gt;
+
+  &lt;property id="Z2EXEONLYRAM"&gt;
+    &lt;curValue&gt;FFFFFFFF&lt;/curValue&gt;
+  &lt;/property&gt;
+
+&lt;/PropertyValues&gt;
+</DebugProperties><FilePaths/></Core><Core name="C28xx_CPU2"><DebugProperties>&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;
+&lt;PropertyValues&gt;
+
+  &lt;property id="VerifyAfterProgramLoad"&gt;
+    &lt;curValue&gt;Full verification&lt;/curValue&gt;
+  &lt;/property&gt;
+
+  &lt;property id="AutoRunToLabelOnRestart"&gt;
+    &lt;curValue&gt;0&lt;/curValue&gt;
+  &lt;/property&gt;
+
+  &lt;property id="FlashCoreSelection"&gt;
+    &lt;curValue&gt;CPU2 (Slave)&lt;/curValue&gt;
+  &lt;/property&gt;
+
+&lt;/PropertyValues&gt;
+</DebugProperties><FilePaths/></Core></PartNumber>
