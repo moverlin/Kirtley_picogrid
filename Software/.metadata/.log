@@ -9081,3 +9081,56 @@ java.nio.channels.ClosedByInterruptException
 	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:144)
 	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:84)
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SESSION 2019-01-10 15:24:33.313 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 4 0 2019-01-10 15:24:41.684
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2019-01-10 15:24:41.694
+!MESSAGE debugServerDir=C:/ti/ccsv6/ccs_base/DebugServer
+
+!ENTRY com.ti.ccstudio.debug.server 4 214294189 2019-01-10 15:25:30.347
+!MESSAGE Unexpected CCS exit detected [1/9/19 6:00 PM]!!!
+
+!ENTRY org.eclipse.ui 2 0 2019-01-10 15:25:39.614
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.dvt.graph.visualization' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2019-01-10 15:25:39.634
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.dvt.rovsupport' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2019-01-10 15:25:39.694
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.dvt.ui' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2019-01-10 15:25:39.764
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.uia.sessionmgr.view' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.ui 2 0 2019-01-10 15:25:39.854
+!MESSAGE The 'org.eclipse.ui.startup' extension from 'com.ti.util.ui' does not provide a 'class' attribute.
+This usage is deprecated and a 'class' attribute should be provided.
+The release after Mars (4.5) will no longer support the deprecated usage!
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-01-10 15:25:44.605
+!MESSAGE Indexed 'Inverter_RS485_CPU1' (23 sources, 72 headers) in 6.56 sec: 15,309 declarations; 17,095 references; 0 unresolved inclusions; 292 syntax errors; 227 unresolved names (0.7%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-01-10 15:25:49.134
+!MESSAGE Indexed 'blinky_mutant_v8' (23 sources, 71 headers) in 4.44 sec: 15,078 declarations; 16,516 references; 0 unresolved inclusions; 293 syntax errors; 228 unresolved names (0.72%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-01-10 15:27:01.360
+!MESSAGE Indexed 'Inverter_RS485_CPU2' (16 sources, 65 headers) in 3.14 sec: 14,592 declarations; 13,718 references; 0 unresolved inclusions; 291 syntax errors; 228 unresolved names (0.8%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-01-10 15:27:06.757
+!MESSAGE Indexed 'blinky_mutant_v7' (23 sources, 71 headers) in 3.4 sec: 15,078 declarations; 16,516 references; 0 unresolved inclusions; 293 syntax errors; 228 unresolved names (0.72%)
