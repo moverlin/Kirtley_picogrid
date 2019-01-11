@@ -17,12 +17,16 @@ Here is the list of topics we discuss:
 - Demos:
 	- blinky_mutant_v7
 		- This example blinks an LED on the Central Controller PCB via clicking a button on the Labview control panel.
+	- 3 Inverter Demo
+		- This demo was created by Mike (Po-Hsu Huang). We have two copies. Whenever we are running this we use the one ending in "-Copy":
+			- 3_INV_DEMO_MIKE_DONT_TOUCH
+			- 3_INV_DEMO_MIKE_DONT_TOUCH - Copy
 - [Uniflash](#uniflash)
 
 ## <a name="folder_structure"></a> Overview of Software Organisation
 Features of our approach:
 - Self-Contained
-	- Our goal is to have self-contained folders that run specific demos/projects. All software associated with a given demo should be located in the same place. 
+	- Our goal is to have self-contained folders that run specific demos/projects. All software associated with a given demo should be located in the same place.
 	- This means we duplicate some files (eg TI libraries, Header files etc) for each new project. However, we prefer this approach than to require our projects to link to files in other folders outside that project folder.
 - Typical Demo/Project Layout:
 	- *NOTE!!!* This layout will probably be a little different in the future to cater for projects with multiple microcontrollers.
@@ -87,7 +91,7 @@ There are 2 methods to correctly copy. We reccommend method 1, but we may need t
 			- Browse to whatever folder in Windows you want to use. Eg MIT-Pico-Grid/Software
 		- In CCS: File-->Import-->C/C++ --> CCS Projects. Click Next
 			- A new window appears
-			- Click Browse in order to select search directory 
+			- Click Browse in order to select search directory
 			- Select folder where the project we wish to copy (eg TI example) is located
 				- Recall  For TI examples:
 					- C: ti/ControlSuite/device_support/F2837xD/v210/F2837xD_examples_Cpu1
@@ -114,7 +118,7 @@ The steps to create this file are as follows:
 	- Double click the name of the ".ccxml" file
 	- Click "Test Connection" Button
 	- A window will appear and will tell us whether we succeed
-	
+
 
 ## <a name="uniflash"></a> Uniflash
 To flash our code we use CCS Uniflash, as opposed to the debug mode in CCS.  
@@ -129,4 +133,3 @@ Steps to use Uniflash:
 	- A Window will appear
 		- Ignore all of the options - no need to change anything
 		- Click Program-->Load Program-->Browse--> go to .OUT file located in CPU1_flash folder
-
